@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        greet();
+        greet("Balazs");
         count();
     }
 
-    public static void greet(){
-        System.out.println("Sidó Balázs");
+    public static void greet(String name){
+        System.out.println(name);
     }
-<<<<<<< HEAD
 
-    public static void cheer(){
+    public static void cheer() {
         System.out.println("BBG");
-=======
+    }
+
     public static void count(){
         System.out.println("28");
->>>>>>> 278a248bc25246b4a8a8d994aa355c3aeeddc844
+
     }
 }
