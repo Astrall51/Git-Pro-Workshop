@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
         greet();
         count();
-        cheer();
+        cheer("BBG");
     }
 
     public static void greet(){
-        System.out.println("Sidó Balázs");
+        System.out.println("Greetings");
     }
 
     public static void cheer(String teamNAme) {
