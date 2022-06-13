@@ -6,6 +6,12 @@ public class Main {
 
     public static void greet() {
         System.out.println("Sidó Balázs");
+        greet("Balazs");
+        count(28);
+    }
+
+    public static void greet(String name) {
+        System.out.println(name);
     }
 
     public static void cheer() {
@@ -14,7 +20,6 @@ public class Main {
 
     public static void count(int age) {
         System.out.println(age);
-
     }
 }
 
