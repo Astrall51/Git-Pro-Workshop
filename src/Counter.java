@@ -1,6 +1,5 @@
 public class Counter {
-    public static void count(int one, int two) {
-        System.out.println(one);
-        System.out.println(two);
+    public static void count(String parameter) {
+        System.out.println("Counting the countless" + parameter);
     }
 }
